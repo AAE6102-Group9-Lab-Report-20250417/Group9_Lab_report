@@ -1,0 +1,22 @@
+% program   : RTKPOST demo5 b34k
+% inp file  : C:\Users\user\Desktop\AAE6102_Laboratory-main\AAE6102_Laboratory-main\GNSS Data\UrbanNav - Medium\20210521.medium-urban.whampoa.ublox.f9p.obs
+% inp file  : C:\Users\user\Desktop\AAE6102_Laboratory-main\AAE6102_Laboratory-main\GNSS Data\UrbanNav - Medium\hksc141g.21o
+% inp file  : C:\Users\user\Desktop\AAE6102_Laboratory-main\AAE6102_Laboratory-main\GNSS Data\UrbanNav - Medium\hksc141g.21n
+% obs start : 2021/05/21 06:29:02.0 GPST (week2158 455342.0s)
+% obs end   : 2021/05/21 06:54:39.0 GPST (week2158 456879.0s)
+% pos mode  : DGPS
+% freqs     : L1
+% solution  : Forward
+% elev mask : 15.0 deg
+% dynamics  : on
+% tidecorr  : off
+% ionos opt : Broadcast
+% tropo opt : Saastamoinen
+% ephemeris : Broadcast
+% navi sys  : GPS GLONASS Galileo QZSS BDS NavIC SBAS
+% antenna1  :                       ( 0.0000  0.0000  0.0000)
+% antenna2  :                       ( 0.0000  0.0000  0.0000)
+% ref pos   : 22.322172082  114.141187963    20.2386
+%
+% (lat/lon/height=WGS84/ellipsoidal,Q=1:fix,2:float,3:sbas,4:dgps,5:single,6:ppp,ns=# of satellites)
+%  GPST          latitude(deg) longitude(deg)  height(m)   Q  ns   sdn(m)   sde(m)   sdu(m)  sdne(m)  sdeu(m)  sdun(m) age(s)  ratio

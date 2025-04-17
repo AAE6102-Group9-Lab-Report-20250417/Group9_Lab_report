@@ -69,8 +69,8 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 |-------------------|---------|-------|-----------|
 | **SNR Mask** | 0 dB-Hz| 25 dB-Hz | quality control |
 | **Elevation Mask** | 0° | 20° | quality control |
-| **Filter frequency** | L1 | L1+L2 | Compare dual vs. single frequency. |
-| **Filter type** | code | code + carrier phase | Compare SPP/DGNSS/RTK |
+| **Measurement frequency** | L1 | L1+L2 | Compare dual vs. single frequency. |
+| **Measurement type** | code | code + carrier phase | Compare SPP/DGNSS/RTK |
 
 Analysis of parameter adjustments for urban areas
 Signal-to-Noise and elevation angle threshold Adjustment:

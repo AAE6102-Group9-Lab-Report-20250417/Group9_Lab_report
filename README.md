@@ -68,9 +68,9 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 ### 3.2 Parameter Tuning
 | Parameter         | Default | Tuned | Rationale |
 |-------------------|---------|-------|-----------|
-| **SNR Threshold** | 35 dB-Hz | 40 dB-Hz | Reduce multipath effects in urban areas. |
-| **Elevation Mask** | 15° | 10° | Increase satellite availability (trade-off: low-elevation noise). |
-| **Filter Type** | Combined (L1/L2) | L1-only (DGPS) | Compare dual vs. single frequency. |
+| **Elevation Mask** | 15° | 40° | Increase satellite availability (trade-off: low-elevation noise). |
+| **Filter frequency** | Combined (L1/L2) | L1-only (DGPS) | Compare dual vs. single frequency. |
+| **Filter type** | code | code + carrier phase | Compare SPP/DGNSS/RTK |
 
 Analysis of parameter adjustments for urban areas
 Signal-to-Noise and elevation angle threshold Adjustment:
@@ -94,7 +94,6 @@ In urban environments, carrier phase and pseudorange have significant effects on
 - **RTK**: Smoother trajectory (cm-level accuracy).  
 - **DGPS**: Meter-level jumps due to urban multipath.  
  
-- **Multi-frequency RTK** (L1+L2+E5B): Lower vertical error (<10 cm) vs. L1-only (>20 cm).  
 ### 4.2 Error Analysis
 | Mode          | Horizontal RMS (m) | Vertical RMS (m) | Processing Time (s) |
 |---------------|--------------------|------------------|---------------------|
@@ -109,6 +108,9 @@ In urban environments, carrier phase and pseudorange have significant effects on
 | **DGPS L1**   | 4 (DGPS)         | 7          | 2.22 (sdn) - 2.28 (sde) | 4.52 (sdu) |
 | **RTK L1+L2** | 4 (DGPS)*        | 7          | 2.22 - 2.28       | 4.52            | 
 | **SPP L1**    | 4 (DGPS)*        | 7          | 2.22 - 2.28       | 4.52            |
+
+### 4.4 Residual analysis
+![image](https://github.com/user-attachments/assets/7a6036aa-c8b2-46c6-a671-d042a73afd41)
 
 
 

@@ -30,11 +30,11 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 | Mode          | Files | Description |
 |---------------|-------|-------------|
 | **RTK L1**    | `.pos`, `.stat`, `_events` | RTK L1 frequency only |
-| **RTK L1+L2** | `.pos`, `.stat`, `_events` |  RTK L1 frequency |
-| **DGPS C1**   | `.pos`, `.stat`, `_events` | Differential GPS L1 frequency |
-| **DGPS C1+C2**   | `.pos`, `.stat`, `_events` | Differential GPS L1 frequency |
-| **SPP C1**       | `.pos`, `.stat`, `_events` | Single-Point Positioning L1 frequency |
-| **SPP C1+C2**       | `.pos`, `.stat`, `_events` | Single-Point Positioning L1+L2 frequency |
+| **RTK L1+L2** | `.pos`, `.stat`, `_events` |  RTK L1+L2 frequency |
+| **DGPS C1**   | `.pos`, `.stat`, `_events` | Differential GPS C1 frequency |
+| **DGPS C1+C2**   | `.pos`, `.stat`, `_events` | Differential GPS C1+C2 frequency |
+| **SPP C1**       | `.pos`, `.stat`, `_events` | Single-Point Positioning C1 frequency |
+| **SPP C1+C2**       | `.pos`, `.stat`, `_events` | Single-Point Positioning C1+C2 frequency |
 ### Tools
 - **RTKLIB Apps**:  
   - `rtkpost.exe`: Batch processing to generate `.pos` files.  

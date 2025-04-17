@@ -41,9 +41,9 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 ### Trajectory Visualization
 #### Figure 1: Ground Track (DGPS and DGPS L1)
 ![](images/DGPS_DGPS_L1.jpg)
-#### Figure 2: Ground Track (RTK L1 and RTK LI+L2 E5B)
+#### Figure 2: Ground Track (RTK L1 and RTK L1+L2)
 ![](images/RTK%20L1_RTK%20LI+L2%20E5B.jpg)
-#### Figure 3: Ground Track (SPP and SPP L1)
+#### Figure 3: Ground Track (SPP L1 and SPP L1+L2)
 ![](images/SPP_SPP%20L1.jpg)
 ---
 ## 3. Methodology
@@ -72,11 +72,11 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 ---
 ## 4. Results and Analysis
 ### 4.1 Position Comparison Visualization
-#### Figure 4: Position Comparison between DGPS and DGPS L1
+#### Figure 4: Position Comparison between DGPS L1 and DGPS L1+L2
 ![](images/DGPS_DGPS_L1_position.jpg)
-#### Figure 5: Position Comparison between RTK L1 and RTK LI+L2 E5B
+#### Figure 5: Position Comparison between RTK L1 and RTK LI+L2
 ![](images/RTK%20L1_RTK%20LI+L2%20E5B_position.jpg)
-#### Figure 6: Position Comparison between SPP and SPP L1
+#### Figure 6: Position Comparison between SPP L1 and SPP L1+L2
 ![](images/SPP_SPP%20L1%20position.jpg)
 
 - **RTK**: Smoother trajectory (cm-level accuracy).  

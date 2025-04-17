@@ -75,6 +75,7 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 Analysis of parameter adjustments for urban areas
 Signal-to-Noise and elevation angle threshold Adjustment:
 Increasing the SNR threshold and elevation angle helps mitigate the effects of multipath signals, which are prevalent in urban environments due to reflections from buildings and obstacles. However，the reduced number of satellites will also compromise the spatial geometry, resulting in reduced accuracy.
+![image](https://github.com/user-attachments/assets/4bfcf625-6a3a-45be-b54a-f5b9c8d1ba9d)
 
 Measurement Type Adjustment:
 Switching from a combined dual-frequency filter to an single-frequency filter allows for a focused analysis of the performance of a single-frequency system. This helps determine if a dual-frequency approach offers a significant advantage in an urban environment, or if relying on a simpler single-frequency approach is more effective.

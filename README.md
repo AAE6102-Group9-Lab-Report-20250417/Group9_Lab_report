@@ -69,7 +69,7 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 |-------------------|---------|-------|-----------|
 | **SNR Mask** | 0° | 30° | Increase satellite availability (trade-off: low-elevation noise). |
 | **Elevation Mask** | 15° | 40° | Increase satellite availability (trade-off: low-elevation noise). |
-| **Filter frequency** | Combined (L1/L2) | L1-only (DGPS) | Compare dual vs. single frequency. |
+| **Filter frequency** | L1+L2 | L1-only | Compare dual vs. single frequency. |
 | **Filter type** | code | code + carrier phase | Compare SPP/DGNSS/RTK |
 
 Analysis of parameter adjustments for urban areas

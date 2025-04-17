@@ -105,7 +105,7 @@ In urban environments, carrier phase and pseudorange have significant effects on
 The chart shows the Signal-to-Noise Ratio (SNR) and multipath effects in an urban environment. SNR values fluctuate between 10 and 40 dBHz, indicating stable signal quality without a direct relationship to elevation angle. Meanwhile, the multipath effects remain minimal, ranging from -5 to 5 meters, suggesting limited impact on positioning accuracy. Overall, these findings highlight the importance of considering urban interferences in positioning analysis beyond just elevation angles.
 
 ### 4.3 Residual analysis
-#### Figure 10: code and carrier phase residual of RTK results
+#### Figure 10: Code and carrier phase residual of RTK results
 ![image](https://github.com/user-attachments/assets/e70e9c8d-4acb-4b0d-944b-f6aaec5e023f)
 
 The RTK residuals displayed in the graph compares pseudorange and carrier-phase residuals. The pseudorange residuals exhibit significant fluctuations, with a range reaching up to 10 meters, indicating substantial impacts from multipath effects and noise, particularly in urban environments. In contrast, the carrier-phase residuals remain relatively stable, fluctuating within ±0.1 meters, showcasing their high precision. Although there are some outliers, the overall stability suggests that carrier-phase positioning outperforms pseudorange in terms of accuracy and resilience to interference. This analysis underscores the importance of prioritizing carrier-phase methods for high-precision positioning needs.

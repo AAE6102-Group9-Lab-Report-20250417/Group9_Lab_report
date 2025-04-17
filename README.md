@@ -97,7 +97,7 @@ In urban environments, carrier phase and pseudorange have significant effects on
 ![](images/SPP_SPP%20L1%20position.jpg)
 
 - **RTK**: Smoother trajectory.  
-- **DGPS**: Meter-level jumps due to urban multipath.
+- **DGPS**: several meters level jumps due to urban multipath.
 ### 4.2 Signal quality analysis
 ![image](https://github.com/user-attachments/assets/efcf2531-30a1-4c50-a971-87b4a990e79d)
 
@@ -111,21 +111,5 @@ The RTK residuals displayed in the graph compares pseudorange and carrier-phase 
 
 
 ### 4.3 Error Analysis
-| Mode          |E   RMS (m) | N RMS (m) |U  RMS (m) |
-|---------------|--------------------|------------------|------------------|
-| **RTK L1**    | 0.05               | 0.12             |
-| **RTK L1+L2** | 0.03               | 0.08             | 
-| **DGPS L1**   | 1.20               | 2.50             | 
-| **DGPS L1+L2**   | 1.20            | 2.50             | 
-| **SPP L1**       | 3.50            | 5.80             |
-| **DGPS L1+L2*   | 3.50            | 5.80             |
 
-
-It can be seen that the accuracy of several positioning methods is all at the meter level.It can be seen that the accuracy of several positioning methods is at the meter level. The difference is not too much
-
-
-
----
-## 5. Conclusions
-1. **RTK with dual-frequency (L1+L2)** sightly outperforms DGPS/SPP in urban environment. However, the RTK ambiguity can hardly be fixed in urban environments.
-2. **Tuning SNR/elevation masks** In urban environments, the improvement effect of the value adjustment is not obvious. Setting a strict threshold may reduce the positioning accuracy. 
+The accuracy of various positioning methods is generally at the meter level, with RTK using dual-frequency (L1+L2) slightly outperforming DGPS/SPP in urban environments, although RTK ambiguity is challenging to resolve, and tuning SNR/elevation masks shows limited improvement, with strict thresholds potentially reducing positioning accuracy.

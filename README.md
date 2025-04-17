@@ -113,8 +113,7 @@ The RTK residuals displayed in the graph compares pseudorange and carrier-phase 
 | **DGPS L1+L2*   | 3.50            | 5.80             |
 
 
-
-The RTK residuals displayed in the graph compares pseudorange and carrier-phase residuals. The pseudorange residuals exhibit significant fluctuations, with a range reaching up to 10 meters, indicating substantial impacts from multipath effects and noise, particularly in urban environments. In contrast, the carrier-phase residuals remain relatively stable, fluctuating within ±0.1 meters, showcasing their high precision. Although there are some outliers, the overall stability suggests that carrier-phase positioning outperforms pseudorange in terms of accuracy and resilience to interference. This analysis underscores the importance of prioritizing carrier-phase methods for high-precision positioning needs.
+It can be seen that the accuracy of several positioning methods is all at the meter level.It can be seen that the accuracy of several positioning methods is at the meter level. The difference is not too much
 
 
 

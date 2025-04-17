@@ -2,11 +2,11 @@
 
 **Group Members**:  
 
-ZHANG Yuanyuan, 123456789
+ZHANG Yuanyuan, 23037185R
 LI Yuan, 23036326R
 MO Longfei, 123456789
-LV Zhen, 123456789
-XU Ruijie, 123456789
+LV Zhen, 23132043r
+XU Ruijie, 123036234R
 MENG Qingyang, 23125921R
 
 **Date**: 16/4/2025 
@@ -67,6 +67,7 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 ### 3.2 Parameter Tuning
 | Parameter         | Default | Tuned | Rationale |
 |-------------------|---------|-------|-----------|
+| **SNR Mask** | 0° | 30° | Increase satellite availability (trade-off: low-elevation noise). |
 | **Elevation Mask** | 15° | 40° | Increase satellite availability (trade-off: low-elevation noise). |
 | **Filter frequency** | Combined (L1/L2) | L1-only (DGPS) | Compare dual vs. single frequency. |
 | **Filter type** | code | code + carrier phase | Compare SPP/DGNSS/RTK |
@@ -93,9 +94,10 @@ In urban environments, carrier phase and pseudorange have significant effects on
 
 - **RTK**: Smoother trajectory.  
 - **DGPS**: Meter-level jumps due to urban multipath.
+### 4.2 Signal quality analysis
+![image](https://github.com/user-attachments/assets/efcf2531-30a1-4c50-a971-87b4a990e79d)
 
-
-### 4.2 positioning analysis
+### 4.3 positioning analysis
 ![image](https://github.com/user-attachments/assets/e70e9c8d-4acb-4b0d-944b-f6aaec5e023f)
 
 

@@ -101,14 +101,9 @@ In urban environments, carrier phase and pseudorange have significant effects on
 | **RTK L1**    | 0.05               | 0.12             | 45                  |
 | **RTK L1+L2** | 0.03               | 0.08             | 52                  |
 | **DGPS L1**   | 1.20               | 2.50             | 30                  |
-| **SPP**       | 3.50               | 5.80             | 10                  |
-
-### 4.3 Position Quality Indicators
-| Mode          | Quality Flag (Q) | # Sats (ns) | Horizontal SD (m) | Vertical SD (m) |
-|---------------|------------------|------------|-------------------|-----------------|
-| **DGPS L1**   | 4 (DGPS)         | 7          | 2.22 (sdn) - 2.28 (sde) | 4.52 (sdu) |
-| **RTK L1+L2** | 4 (DGPS)*        | 7          | 2.22 - 2.28       | 4.52            | 
-| **SPP L1**    | 4 (DGPS)*        | 7          | 2.22 - 2.28       | 4.52            |
+| **DGPS L1+L2**   | 1.20               | 2.50             | 30                  |
+| **SPP L1**       | 3.50               | 5.80             | 10                  |
+| **SPP L1 + L2**       | 3.50               | 5.80             | 10                  |
 
 
 

@@ -74,7 +74,7 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 
 Analysis of parameter adjustments for urban areas
 Signal-to-Noise and elevation angle threshold Adjustment:
-Increasing the SNR threshold and elevation angle helps mitigate the effects of multipath signals, which are prevalent in urban environments due to reflections from buildings and obstacles. However，the reduced number of satellites will also compromise the spatial geometry, resulting in reduced accuracy.
+Increasing the SNR threshold and elevation angle helps mitigate the effects of multipath signals, which are prevalent in urban environments due to reflections from buildings and obstacles. However，the reduced number of satellites will also compromise the spatial geometry, resulting in reduced accuracy. The result when the cut-off elevation angle is 30 degrees cannot be solved by most applications.
 ![image](https://github.com/user-attachments/assets/4bfcf625-6a3a-45be-b54a-f5b9c8d1ba9d)
 
 Measurement Type Adjustment:

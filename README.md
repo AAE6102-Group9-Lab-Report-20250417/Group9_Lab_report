@@ -96,14 +96,14 @@ In urban environments, carrier phase and pseudorange have significant effects on
 - **DGPS**: Meter-level jumps due to urban multipath.  
  
 ### 4.2 Error Analysis
-| Mode          | Horizontal RMS (m) | Vertical RMS (m) | Processing Time (s) |
+| Mode          | Horizontal RMS (m) | Vertical RMS (m) |
 |---------------|--------------------|------------------|---------------------|
-| **RTK L1**    | 0.05               | 0.12             | 45                  |
-| **RTK L1+L2** | 0.03               | 0.08             | 52                  |
-| **DGPS L1**   | 1.20               | 2.50             | 30                  |
-| **DGPS L1+L2**   | 1.20               | 2.50             | 30                  |
-| **SPP L1**       | 3.50               | 5.80             | 10                  |
-| **SPP L1 + L2**       | 3.50               | 5.80             | 10                  |
+| **RTK L1**    | 0.05               | 0.12             |
+| **RTK L1+L2** | 0.03               | 0.08             | 
+| **DGPS L1**   | 1.20               | 2.50             | 
+| **DGPS L1+L2**   | 1.20               | 2.50             | 
+| **SPP L1**       | 3.50               | 5.80             |
+| **SPP L1 + L2**       | 3.50               | 5.80             |
 
 
 
@@ -115,21 +115,7 @@ The RTK residuals displayed in the graph compares pseudorange and carrier-phase 
 
 
 
-**Covariance Analysis**:
-   ```math
-   \begin{bmatrix}
-   \sigma_N^2 & \sigma_{NE} & \sigma_{NU} \\
-   \sigma_{NE} & \sigma_E^2 & \sigma_{EU} \\
-   \sigma_{NU} & \sigma_{EU} & \sigma_U^2 
-   \end{bmatrix} = 
-   \begin{bmatrix}
-   2.22^2 & -1.09 & 1.10 \\
-   -1.09 & 2.28^2 & -1.16 \\
-   1.10 & -1.16 & 4.52^2
-   \end{bmatrix}
-   ```
-
 ---
 ## 5. Conclusions
 1. **RTK with dual-frequency (L1+L2)** outperforms DGPS/SPP in urban environment. However, the RTK ambiguity can hardly be fixed in urban environments.
-2. **Tuning SNR/elevation masks** In urban environments, the value adjustment is not obvious. Setting a strict threshold will reduce the accuracy. 
+2. **Tuning SNR/elevation masks** In urban environments, the effect of the value adjustment is not obvious. Setting a strict threshold will reduce the accuracy. 

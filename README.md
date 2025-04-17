@@ -29,10 +29,12 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 ### Output Files (Generated via RTKLIB)
 | Mode          | Files | Description |
 |---------------|-------|-------------|
-| **RTK L1**    | `.pos`, `.stat`, `_events` | RTK with GPS L1 only |
-| **RTK L1+L2+E5B** | `.pos`, `.stat`, `_events` | Multi-frequency RTK (GPS+Galileo) |
-| **DGPS L1**   | `.pos`, `.stat`, `_events` | Differential GPS (L1) |
-| **SPP**       | `.pos`, `.stat`, `_events` | Single-Point Positioning |
+| **RTK L1**    | `.pos`, `.stat`, `_events` | RTK L1 frequency only |
+| **RTK L1+L2** | `.pos`, `.stat`, `_events` |  RTK L1 frequency |
+| **DGPS C1**   | `.pos`, `.stat`, `_events` | Differential GPS L1 frequency |
+| **DGPS C1+C2**   | `.pos`, `.stat`, `_events` | Differential GPS L1 frequency |
+| **SPP C1**       | `.pos`, `.stat`, `_events` | Single-Point Positioning L1 frequency |
+| **SPP C1+C2**       | `.pos`, `.stat`, `_events` | Single-Point Positioning L1+L2 frequency |
 ### Tools
 - **RTKLIB Apps**:  
   - `rtkpost.exe`: Batch processing to generate `.pos` files.  

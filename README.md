@@ -71,6 +71,16 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 | **SNR Threshold** | 35 dB-Hz | 40 dB-Hz | Reduce multipath effects in urban areas. |
 | **Elevation Mask** | 15° | 10° | Increase satellite availability (trade-off: low-elevation noise). |
 | **Filter Type** | Combined (L1/L2) | L1-only (DGPS) | Compare dual vs. single frequency. |
+
+Analysis of parameter adjustments for urban areas
+Signal-to-Noise and elevation angle threshold Adjustment:
+Increasing the SNR threshold and elevation angle helps mitigate the effects of multipath signals, which are prevalent in urban environments due to reflections from buildings and obstacles. However，the reduced number of satellites will also compromise the spatial geometry, resulting in reduced accuracy.
+
+Measurement Type Adjustment:
+Switching from a combined dual-frequency filter to an single-frequency filter allows for a focused analysis of the performance of a single-frequency system. This helps determine if a dual-frequency approach offers a significant advantage in an urban environment, or if relying on a simpler single-frequency approach is more effective.
+
+In urban environments, carrier phase and pseudorange have significant effects on positioning accuracy. Pseudorange positioning is suitable for dynamic scenarios due to its ease of use and fast response, but it is easily affected by multipath effects and noise, and its accuracy is generally at the meter level, which cannot meet high-precision requirements. In contrast, carrier phase positioning uses phase information to achieve centimeter-level accuracy and is more resistant to interference, making it suitable for high-precision applications. However, it requires initialization and resolution of integer ambiguities, which increases the complexity of implementation.
+
 ---
 ## 4. Results and Analysis
 ### 4.1 Position Comparison Visualization

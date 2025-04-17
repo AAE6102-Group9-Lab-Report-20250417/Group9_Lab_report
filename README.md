@@ -94,14 +94,17 @@ In urban environments, carrier phase and pseudorange have significant effects on
 ## 4. Results and Analysis
 ### 4.1 Position Comparison Visualization
 #### Figure 6: Position Comparison between DGPS L1 and DGPS L1+L2
-The plot shows the positional discrepancies between single-frequency (L1) and dual-frequency (L1+L2) DGPS solutions. While both solutions show similar trends, the L1+L2 solution appears smoother and has fewer deviations. However, the results also indicate that DGPS, even with dual frequencies, struggles with multipath and signal obstructions typical of urban settings, as reflected in the noisy data. 
+
 ![](images/DGPS_DGPS_L1_position.jpg)
+The plot shows the positional discrepancies between single-frequency (L1) and dual-frequency (L1+L2) DGPS solutions. While both solutions show similar trends, the L1+L2 solution appears smoother and has fewer deviations. However, the results also indicate that DGPS, even with dual frequencies, struggles with multipath and signal obstructions typical of urban settings, as reflected in the noisy data. 
 #### Figure 7: Position Comparison between RTK L1 and RTK LI+L2
-The RTK L1+L2 solution does not exhibit significant stability compared to the RTK L1 solution. While the L1-only solution shows more pronounced jumps and noise, the L1+L2 solution also experiences some fluctuations. Its vertical variations are limited, and the ambiguity resolution rate is approximately 20%, which does not ensure accuracy. Although dual-frequency carrier-phase measurements provide some advantages, the overall stability remains insufficient.
+
 ![](images/RTK%20L1_RTK%20LI+L2%20E5B_position.jpg)
+The RTK L1+L2 solution does not exhibit significant stability compared to the RTK L1 solution. While the L1-only solution shows more pronounced jumps and noise, the L1+L2 solution also experiences some fluctuations. Its vertical variations are limited, and the ambiguity resolution rate is approximately 20%, which does not ensure accuracy. Although dual-frequency carrier-phase measurements provide some advantages, the overall stability remains insufficient.
 #### Figure 8: Position Comparison between SPP L1 and SPP L1+L2
-The SPP L1+L2 solution provides slightly improved accuracy and smoother trends compared to SPP L1. However, both solutions exhibit significant noise and deviations, particularly in the vertical component, indicating that single-point positioning is less reliable in urban scenarios. 
+
 ![](images/SPP_SPP%20L1%20position.jpg)
+The SPP L1+L2 solution provides slightly improved accuracy and smoother trends compared to SPP L1. However, both solutions exhibit significant noise and deviations, particularly in the vertical component, indicating that single-point positioning is less reliable in urban scenarios. 
 
 ### 4.2 Signal quality analysis
 #### Figure 9: Signal-to-Noise Ratio (SNR) and Multipath Analysis

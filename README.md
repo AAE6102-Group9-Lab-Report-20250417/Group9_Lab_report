@@ -94,10 +94,13 @@ In urban environments, carrier phase and pseudorange have significant effects on
 ## 4. Results and Analysis
 ### 4.1 Position Comparison Visualization
 #### Figure 6: Position Comparison between DGPS L1 and DGPS L1+L2
+The plot shows the positional discrepancies between single-frequency (L1) and dual-frequency (L1+L2) DGPS solutions. While both solutions show similar trends, the L1+L2 solution appears smoother and has fewer deviations. However, the results also indicate that DGPS, even with dual frequencies, struggles with multipath and signal obstructions typical of urban settings, as reflected in the noisy data. 
 ![](images/DGPS_DGPS_L1_position.jpg)
 #### Figure 7: Position Comparison between RTK L1 and RTK LI+L2
+The RTK L1+L2 solution shows noticeably higher stability and consistency compared to RTK L1, especially in the U direction. The L1-only solution exhibits greater jumps and noise, indicating reduced reliability. The RTK L1+L2 solution benefits from carrier-phase measurements on dual frequencies, which allow for better ambiguity resolution and robustness against ionospheric and tropospheric delays. This is critical in urban environments where multipath effects and signal blockages are prevalent. 
 ![](images/RTK%20L1_RTK%20LI+L2%20E5B_position.jpg)
 #### Figure 8: Position Comparison between SPP L1 and SPP L1+L2
+The SPP L1+L2 solution provides slightly improved accuracy and smoother trends compared to SPP L1. However, both solutions exhibit significant noise and deviations, particularly in the vertical component, indicating that single-point positioning is less reliable in urban scenarios. 
 ![](images/SPP_SPP%20L1%20position.jpg)
 
 ### 4.2 Signal quality analysis

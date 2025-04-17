@@ -103,14 +103,14 @@ The RTK residuals displayed in the graph compares pseudorange and carrier-phase 
 
 
 ### 4.3 Error Analysis
-| Mode          |E   STD (m) | N RMS (m) |U  RMS (m) |
+| Mode          |E   RMS (m) | N RMS (m) |U  RMS (m) |
 |---------------|--------------------|------------------|------------------|
 | **RTK L1**    | 0.05               | 0.12             |
 | **RTK L1+L2** | 0.03               | 0.08             | 
 | **DGPS L1**   | 1.20               | 2.50             | 
 | **DGPS L1+L2**   | 1.20            | 2.50             | 
 | **SPP L1**       | 3.50            | 5.80             |
-| **SPP L1 + L2*   | 3.50            | 5.80             |
+| **DGPS L1+L2*   | 3.50            | 5.80             |
 
 
 

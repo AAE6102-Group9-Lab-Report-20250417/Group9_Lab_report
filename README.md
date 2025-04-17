@@ -2,12 +2,12 @@
 
 **Group Members**:  
 
-ZHANG Yuanyuan, 23037185R
-LI Yuan, 23036326R
-MO Longfei, 23125334R
-Lyu zhen, 23132043r
-XU Ruijie, 23036234R
-MENG Qingyang, 23125921R
+ZHANG Yuanyuan, 23037185R;
+LI Yuan, 23036326R;
+MO Longfei, 23125334R;
+Lyu zhen, 23132043R;
+XU Ruijie, 23036234R;
+MENG Qingyang, 23125921R;
 
 **Date**: 16/4/2025 
 

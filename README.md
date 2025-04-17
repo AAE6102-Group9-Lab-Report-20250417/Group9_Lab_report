@@ -104,7 +104,7 @@ The RTK L1+L2 solution does not exhibit significant stability compared to the RT
 #### Figure 8: Position Comparison between SPP L1 and SPP L1+L2
 
 ![](images/SPP_SPP%20L1%20position.jpg)
-The SPP L1+L2 solution provides slightly improved accuracy and smoother trends compared to SPP L1. However, both solutions exhibit significant noise and deviations, particularly in the vertical component, indicating that single-point positioning is less reliable in urban scenarios. 
+The SPP L1+L2 solution provides improved accuracy and smoother trends compared to SPP L1. However, both solutions exhibit significant noise and deviations, particularly in the vertical component, indicating that single-point positioning is less reliable in urban scenarios. 
 
 ### 4.2 Signal quality analysis
 #### Figure 9: Signal-to-Noise Ratio (SNR) and Multipath Analysis

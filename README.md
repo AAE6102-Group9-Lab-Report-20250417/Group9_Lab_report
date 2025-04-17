@@ -112,6 +112,7 @@ In urban environments, carrier phase and pseudorange have significant effects on
 
 
 ### 4.4 Residual analysis
+![image](https://github.com/user-attachments/assets/f86b8033-53e4-4c1c-baaa-cd441b0f945f)
 
 
 

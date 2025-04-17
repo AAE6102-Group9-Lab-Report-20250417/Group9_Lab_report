@@ -76,9 +76,11 @@ Analysis of parameter adjustments for urban areas
 Signal-to-Noise and elevation angle threshold Adjustment:
 Increasing the SNR threshold and elevation angle helps mitigate the effects of multipath signals, which are prevalent in urban environments due to reflections from buildings and obstacles. However，the reduced number of satellites will also compromise the spatial geometry, resulting in reduced accuracy.
 
-#### Figure 4 and 5: The positioning results when the cut-off elevation angle is 30 degrees or cut-off SNR is 30 dB-Hz.
+#### Figure 4 (a) : The positioning results when the cut-off elevation angle is 30 degrees.
 
 ![image](https://github.com/user-attachments/assets/4bfcf625-6a3a-45be-b54a-f5b9c8d1ba9d)
+
+#### Figure 4 (b) : The positioning results when the cut-off SNR is 30 dB-Hz.
 ![image](https://github.com/user-attachments/assets/36070ea8-3516-4e2c-9237-e4ebdc5e8f6e)
 
 

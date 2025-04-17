@@ -56,8 +56,7 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
    - Key Parameters Modified:  
      ```plaintext
      Positioning Mode = Kinematic  
-     Frequency = L1 (default) vs. L1+L2+E5B  
-     SNR Mask = 35 dB-Hz (default) → 40 dB-Hz (tuned)  
+     Frequency = L1 (default) vs. L1+L2+E5B
      Elevation Mask = 15° (default) → 10° (tuned)  
      ```
 2. **Generate Plots**:  
@@ -93,21 +92,29 @@ In urban environments, carrier phase and pseudorange have significant effects on
 ![](images/SPP_SPP%20L1%20position.jpg)
 
 - **RTK**: Smoother trajectory.  
-- **DGPS**: Meter-level jumps due to urban multipath.  
- 
-### 4.2 Error Analysis
-| Mode          | Horizontal RMS (m) | Vertical RMS (m) |
-|---------------|--------------------|------------------|---------------------|
+- **DGPS**: Meter-level jumps due to urban multipath.
+
+
+### 4.2 positioning analysis
+![image](https://github.com/user-attachments/assets/e70e9c8d-4acb-4b0d-944b-f6aaec5e023f)
+
+
+The RTK residuals displayed in the graph compares pseudorange and carrier-phase residuals. The pseudorange residuals exhibit significant fluctuations, with a range reaching up to 10 meters, indicating substantial impacts from multipath effects and noise, particularly in urban environments. In contrast, the carrier-phase residuals remain relatively stable, fluctuating within ±0.1 meters, showcasing their high precision. Although there are some outliers, the overall stability suggests that carrier-phase positioning outperforms pseudorange in terms of accuracy and resilience to interference. This analysis underscores the importance of prioritizing carrier-phase methods for high-precision positioning needs.
+
+
+### 4.3 Error Analysis
+| Mode          |E   STD (m) | N RMS (m) |U  RMS (m) |
+|---------------|--------------------|------------------|------------------|
 | **RTK L1**    | 0.05               | 0.12             |
 | **RTK L1+L2** | 0.03               | 0.08             | 
 | **DGPS L1**   | 1.20               | 2.50             | 
-| **DGPS L1+L2**   | 1.20               | 2.50             | 
-| **SPP L1**       | 3.50               | 5.80             |
-| **SPP L1 + L2**       | 3.50               | 5.80             |
+| **DGPS L1+L2**   | 1.20            | 2.50             | 
+| **SPP L1**       | 3.50            | 5.80             |
+| **SPP L1 + L2*   | 3.50            | 5.80             |
 
 
 
-### 4.4 Residual analysis
+### 4.2 Residual analysis
 ![image](https://github.com/user-attachments/assets/e70e9c8d-4acb-4b0d-944b-f6aaec5e023f)
 
 
@@ -117,5 +124,5 @@ The RTK residuals displayed in the graph compares pseudorange and carrier-phase 
 
 ---
 ## 5. Conclusions
-1. **RTK with dual-frequency (L1+L2)** outperforms DGPS/SPP in urban environment. However, the RTK ambiguity can hardly be fixed in urban environments.
-2. **Tuning SNR/elevation masks** In urban environments, the effect of the value adjustment is not obvious. Setting a strict threshold will reduce the accuracy. 
+1. **RTK with dual-frequency (L1+L2)** sightly outperforms DGPS/SPP in urban environment. However, the RTK ambiguity can hardly be fixed in urban environments.
+2. **Tuning SNR/elevation masks** In urban environments, the improvement effect of the value adjustment is not obvious. Setting a strict threshold may reduce the positioning accuracy. 

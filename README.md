@@ -74,7 +74,9 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
 
 Analysis of parameter adjustments for urban areas
 Signal-to-Noise and elevation angle threshold Adjustment:
-Increasing the SNR threshold and elevation angle helps mitigate the effects of multipath signals, which are prevalent in urban environments due to reflections from buildings and obstacles. However，the reduced number of satellites will also compromise the spatial geometry, resulting in reduced accuracy. The results when the cut-off elevation angle is 30 degrees or cut-off SNR is 30 dB-Hz cannot be solved by most applications.
+Increasing the SNR threshold and elevation angle helps mitigate the effects of multipath signals, which are prevalent in urban environments due to reflections from buildings and obstacles. However，the reduced number of satellites will also compromise the spatial geometry, resulting in reduced accuracy.
+
+#### Figure 4 and 5: The positioning results when the cut-off elevation angle is 30 degrees or cut-off SNR is 30 dB-Hz.
 
 ![image](https://github.com/user-attachments/assets/4bfcf625-6a3a-45be-b54a-f5b9c8d1ba9d)
 ![image](https://github.com/user-attachments/assets/36070ea8-3516-4e2c-9237-e4ebdc5e8f6e)
@@ -89,20 +91,21 @@ In urban environments, carrier phase and pseudorange have significant effects on
 ---
 ## 4. Results and Analysis
 ### 4.1 Position Comparison Visualization
-#### Figure 4: Position Comparison between DGPS L1 and DGPS L1+L2
+#### Figure 6: Position Comparison between DGPS L1 and DGPS L1+L2
 ![](images/DGPS_DGPS_L1_position.jpg)
-#### Figure 5: Position Comparison between RTK L1 and RTK LI+L2
+#### Figure 7: Position Comparison between RTK L1 and RTK LI+L2
 ![](images/RTK%20L1_RTK%20LI+L2%20E5B_position.jpg)
-#### Figure 6: Position Comparison between SPP L1 and SPP L1+L2
+#### Figure 8: Position Comparison between SPP L1 and SPP L1+L2
 ![](images/SPP_SPP%20L1%20position.jpg)
 
 ### 4.2 Signal quality analysis
+#### Figure 9: SNR value
 ![image](https://github.com/user-attachments/assets/efcf2531-30a1-4c50-a971-87b4a990e79d)
 
 The chart shows the Signal-to-Noise Ratio (SNR) and multipath effects in an urban environment. SNR values fluctuate between 10 and 40 dBHz, indicating stable signal quality without a direct relationship to elevation angle. Meanwhile, the multipath effects remain minimal, ranging from -5 to 5 meters, suggesting limited impact on positioning accuracy. Overall, these findings highlight the importance of considering urban interferences in positioning analysis beyond just elevation angles.
 
 ### 4.3 Residual analysis
-
+#### Figure 10: code and carrier phase residual of RTK results
 ![image](https://github.com/user-attachments/assets/e70e9c8d-4acb-4b0d-944b-f6aaec5e023f)
 
 The RTK residuals displayed in the graph compares pseudorange and carrier-phase residuals. The pseudorange residuals exhibit significant fluctuations, with a range reaching up to 10 meters, indicating substantial impacts from multipath effects and noise, particularly in urban environments. In contrast, the carrier-phase residuals remain relatively stable, fluctuating within ±0.1 meters, showcasing their high precision. Although there are some outliers, the overall stability suggests that carrier-phase positioning outperforms pseudorange in terms of accuracy and resilience to interference. This analysis underscores the importance of prioritizing carrier-phase methods for high-precision positioning needs.

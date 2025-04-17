@@ -112,4 +112,4 @@ The RTK residuals displayed in the graph compares pseudorange and carrier-phase 
 
 ### 4.3 Error Analysis
 
-The accuracy of various positioning methods is generally at the meter level, with RTK using dual-frequency (L1+L2) slightly outperforming DGPS/SPP in urban environments, although RTK ambiguity is challenging to resolve, and tuning SNR/elevation masks shows limited improvement, with strict thresholds potentially reducing positioning accuracy.
+The accuracy of various positioning methods is generally at the meter level, with RTK using dual-frequency (L1+L2) slightly outperforming DGPS/SPP in urban environments, although RTK ambiguity is challenging to resolve. Additionally, tuning SNR/elevation masks shows limited improvement, as strict thresholds can potentially reduce positioning accuracy and negatively impact geometric structure, further complicating effective positioning in dense urban settings.

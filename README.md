@@ -96,8 +96,6 @@ In urban environments, carrier phase and pseudorange have significant effects on
 #### Figure 6: Position Comparison between SPP L1 and SPP L1+L2
 ![](images/SPP_SPP%20L1%20position.jpg)
 
-- **RTK**: Smoother trajectory.  
-- **DGPS**: several meters level jumps due to urban multipath.
 ### 4.2 Signal quality analysis
 ![image](https://github.com/user-attachments/assets/efcf2531-30a1-4c50-a971-87b4a990e79d)
 

@@ -91,7 +91,7 @@ In urban environments, carrier phase and pseudorange have significant effects on
 #### Figure 6: Position Comparison between SPP L1 and SPP L1+L2
 ![](images/SPP_SPP%20L1%20position.jpg)
 
-- **RTK**: Smoother trajectory (cm-level accuracy).  
+- **RTK**: Smoother trajectory.  
 - **DGPS**: Meter-level jumps due to urban multipath.  
  
 ### 4.2 Error Analysis
@@ -136,6 +136,5 @@ The RTK residuals displayed in the graph compares pseudorange and carrier-phase 
 
 ---
 ## 5. Conclusions
-1. **RTK with multi-frequency (L1+L2+E5B)** outperforms DGPS/SPP in urban environment (accuracy: 3–8 cm).  
-2. **Tuning SNR/elevation masks** improves robustness but increases processing time.  
-3. **Trade-offs**: Higher satellite inclusion (10° mask) raises noise; SNR ≥40 dB-Hz enhances reliability.  
+1. **RTK with dual-frequency (L1+L2)** outperforms DGPS/SPP in urban environment.  
+2. **Tuning SNR/elevation masks** In urban environments, the value adjustment is not obvious. Setting a strict threshold will reduce the accuracy. 

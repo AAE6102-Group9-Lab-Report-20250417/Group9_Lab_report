@@ -109,8 +109,10 @@ In urban environments, carrier phase and pseudorange have significant effects on
 | **RTK L1+L2** | 4 (DGPS)*        | 7          | 2.22 - 2.28       | 4.52            | 
 | **SPP L1**    | 4 (DGPS)*        | 7          | 2.22 - 2.28       | 4.52            |
 
+
+
 ### 4.4 Residual analysis
-![image](https://github.com/user-attachments/assets/7a6036aa-c8b2-46c6-a671-d042a73afd41)
+
 
 
 

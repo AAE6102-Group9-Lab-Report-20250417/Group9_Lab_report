@@ -99,7 +99,7 @@ In urban environments, carrier phase and pseudorange have significant effects on
 ![](images/SPP_SPP%20L1%20position.jpg)
 
 ### 4.2 Signal quality analysis
-#### Figure 9: SNR value
+#### Figure 9: Signal-to-Noise Ratio (SNR) and Multipath Analysis
 ![image](https://github.com/user-attachments/assets/efcf2531-30a1-4c50-a971-87b4a990e79d)
 
 The chart shows the Signal-to-Noise Ratio (SNR) and multipath effects in an urban environment. SNR values fluctuate between 10 and 40 dBHz, indicating stable signal quality without a direct relationship to elevation angle. Meanwhile, the multipath effects remain minimal, ranging from -5 to 5 meters, suggesting limited impact on positioning accuracy. Overall, these findings highlight the importance of considering urban interferences in positioning analysis beyond just elevation angles.

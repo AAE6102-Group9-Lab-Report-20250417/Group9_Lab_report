@@ -132,9 +132,8 @@ The RTK residuals displayed in the graph compares pseudorange and carrier-phase 
    1.10 & -1.16 & 4.52^2
    \end{bmatrix}
    ```
-   - High cross-correlations (|σ_{NE}| >1) indicate strong urban signal interference
 
 ---
 ## 5. Conclusions
-1. **RTK with dual-frequency (L1+L2)** outperforms DGPS/SPP in urban environment.  
+1. **RTK with dual-frequency (L1+L2)** outperforms DGPS/SPP in urban environment. However, the RTK ambiguity can hardly be fixed in urban environments.
 2. **Tuning SNR/elevation masks** In urban environments, the value adjustment is not obvious. Setting a strict threshold will reduce the accuracy. 

@@ -41,11 +41,11 @@ This report evaluates the performance of **Real-Time Kinematic (RTK)**, **Differ
   - `rtkplot.exe`: Visualization (trajectories, errors, skyplot).  
   - `pos2kml.exe`: Export to Google Earth.  
 ### Trajectory Visualization
-#### Figure 1: Ground Track (DGPS and DGPS L1)
+#### Figure 1: Ground Track (DGPS C1 and DGPS C1+C2)
 ![](images/DGPS_DGPS_L1.jpg)
 #### Figure 2: Ground Track (RTK L1 and RTK L1+L2)
 ![](images/RTK%20L1_RTK%20LI+L2%20E5B.jpg)
-#### Figure 3: Ground Track (SPP L1 and SPP L1+L2)
+#### Figure 3: Ground Track (SPP C1 and SPP C1+C2)
 ![](images/SPP_SPP%20L1.jpg)
 ---
 ## 3. Methodology

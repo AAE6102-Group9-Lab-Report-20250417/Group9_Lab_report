@@ -5,8 +5,8 @@
 ZHANG Yuanyuan, 23037185R
 LI Yuan, 23036326R
 MO Longfei, 23125334R
-LV Zhen, 23132043r
-XU Ruijie, 123036234R
+Lyu zhen, 23132043r
+XU Ruijie, 23036234R
 MENG Qingyang, 23125921R
 
 **Date**: 16/4/2025 
